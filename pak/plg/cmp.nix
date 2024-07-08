@@ -5,27 +5,28 @@
     cmp = {
       enable = true;
 
-        settings = {
-	  snippet.expand = ''
-          function (args)
-	    require ('luasnip').lsp_expand(args.body)
-	  end
+      settings = {
+	  		snippet.expand = ''
+        	function (args)
+	    			require ('luasnip').lsp_expand(args.body)
+	  			end
         '';
 
-        sources = [
+      	sources = [
           { name = "luasnip";  }
-	  { name = "nvim_lsp"; }
+	  			{ name = "nvim_lsp"; }
+					{ name = "buffer";   }
         ];
 
-	mapping = {
-          "<Tab>"   = "cmp.mapping.select_next_item()";
-	  "<S-Tab>" = "cmp.mapping.select_prev_item()";
-	  "<CR>" = "cmp.mapping.confirm { select = true }";
-	  "<C-[>"   = "cmp.mapping.scroll_docs(2)";
-	  "<C-]>"   = "cmp.mapping.scroll_docs(-2)";
-	};
+				mapping = {
+        	"<Tab>"   = "cmp.mapping.select_next_item()";
+	  			"<S-Tab>" = "cmp.mapping.select_prev_item()";
+	  			"<CR>" = "cmp.mapping.confirm { select = true }";
+	  			"<C-[>"   = "cmp.mapping.scroll_docs(2)";
+	  			"<C-]>"   = "cmp.mapping.scroll_docs(-2)";
+				};
 
-	formatting = {
+				formatting = {
           format = ''
             function(_, vim_item)
               local icons = {
@@ -55,11 +56,11 @@
                 Operator = "  ",
                 TypeParameter = "  ",
               }
-	      vim_item.kind = icons[vim_item.kind]
-	      return vim_item
-	    end
-	  '';
-	};
+	      			vim_item.kind = icons[vim_item.kind]
+	      			return vim_item
+	    			end
+	  			'';
+				};
       };
     };
   };

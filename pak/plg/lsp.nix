@@ -12,8 +12,9 @@
 					installCargo = true;
 				};
 				tsserver.enable = true;
-				nil-ls.enable = true;
-				clangd.enable = true;
+				nil-ls.enable 	= true;
+				clangd.enable 	= true;
+				cmake.enable 		= true;
 			};
 		};
 	};
