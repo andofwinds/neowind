@@ -15,6 +15,7 @@
 				nil-ls.enable 	= true;
 				clangd.enable 	= true;
 				cmake.enable 		= true;
+				lemminx.enable  = true;
 			};
 		};
 	};
