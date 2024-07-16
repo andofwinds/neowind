@@ -1,4 +1,4 @@
-{ inputs, ... }:
+{ ... }:
 {
   opts = {
     number = true;
@@ -9,5 +9,6 @@
     showmode = false;
     tabstop = 2;
     shiftwidth = 2;
+		cursorline = true;
   };
 }
