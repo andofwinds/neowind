@@ -16,6 +16,7 @@
 				clangd.enable 	= true;
 				cmake.enable 		= true;
 				lemminx.enable  = true;
+				pyright.enable	= true;
 			};
 		};
 	};
