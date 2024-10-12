@@ -1,11 +1,11 @@
 { ... }:
 {
   keymaps = [
-    # Disable arrow keys to use chad hjkl!
+    # Disable arrow keys to use chad hjkl only!
     {
       mode = "n";
       key = "<left>";
-      action = "<cmd>echo 'no arrows here!'<cr>";
+      action = "<cmd>echo 'Non-hjkl Detected, Loser!'<cr>";
     }
     {
       mode = "n";
@@ -23,7 +23,7 @@
       action = "<cmd>echo 'no arrows here!'<cr>";
     }
 
-		# Buffer moving
+		# Buffer switching.
 		{
 			mode = "n";
 			key = "<Tab>";
@@ -33,6 +33,11 @@
 			mode = "n";
 			key = "<S-Tab>";
 			action = "<CMD>:bprevious<CR>";
+		}
+		{
+			mode = "n";
+			key = "<Del>";
+			action = "<CMD>:bdelete<CR>";
 		}
 
     # F* features
@@ -53,5 +58,20 @@
       key = "w";
       action = "<CMD>:w<CR>";
     }
+		{
+			mode = "n";
+			key = "q";
+			action = "<CMD>:q<CR>";
+		}
+		{
+			mode = "i";
+			key = "jk";
+			action = "<Esc>";
+		}
+		{
+			mode = "n";
+			key = "+";
+			action = "<CMD>:new<CR>";
+		}
   ];
 }
