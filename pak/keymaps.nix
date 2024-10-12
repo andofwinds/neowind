@@ -1,26 +1,26 @@
 { ... }:
 {
   keymaps = [
-    # Disable arrow keys to use chad hjkl only!
+		# Remap arrows to window switching.
     {
       mode = "n";
       key = "<left>";
-      action = "<cmd>echo 'Non-hjkl Detected, Loser!'<cr>";
+      action = "<C-w>h";
     }
     {
       mode = "n";
       key = "<right>";
-      action = "<cmd>echo 'no arrows here!'<cr>";
+      action = "<C-w>l";
     }
     {
       mode = "n";
       key = "<up>";
-      action = "<cmd>echo 'no arrows here!'<cr>";
+      action = "<C-w>k";
     }
     {
       mode = "n";
       key = "<down>";
-      action = "<cmd>echo 'no arrows here!'<cr>";
+      action = "<C-w>j";
     }
 
 		# Buffer switching.
