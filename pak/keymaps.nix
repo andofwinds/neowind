@@ -52,7 +52,7 @@
       action = "<CMD>:ToggleTerm<CR>";
     }
 
-		# Other
+		# Others
     {
       mode = "n";
       key = "w";
