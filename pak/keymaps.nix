@@ -26,22 +26,22 @@
 		# Window switching.
 		{
 			mode = "n";
-			key = "<wh>";
+			key = "<H>";
 			action = "<C-w>h";
 		}
 		{
 			mode = "n";
-			key = "<wj>";
+			key = "<J>";
 			action = "<C-w>h";
 		}
 		{
 			mode = "n";
-			key = "<wk>";
+			key = "<K>";
 			action = "<C-w>h";
 		}
 		{
 			mode = "n";
-			key = "<wl>";
+			key = "<L>";
 			action = "<C-w>h";
 		}
 
