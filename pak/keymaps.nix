@@ -1,27 +1,49 @@
 { ... }:
 {
   keymaps = [
-		# Remap arrows to window switching.
+		# Disable arrows
     {
       mode = "n";
       key = "<left>";
-      action = "<C-w>h";
+      action = "";
     }
     {
       mode = "n";
       key = "<right>";
-      action = "<C-w>l";
+      action = "";
     }
     {
       mode = "n";
       key = "<up>";
-      action = "<C-w>k";
+      action = "";
     }
     {
       mode = "n";
       key = "<down>";
-      action = "<C-w>j";
+      action = "";
     }
+
+		# Window switching.
+		{
+			mode = "n";
+			key = "<wh>";
+			action = "<C-w>h";
+		}
+		{
+			mode = "n";
+			key = "<wj>";
+			action = "<C-w>h";
+		}
+		{
+			mode = "n";
+			key = "<wk>";
+			action = "<C-w>h";
+		}
+		{
+			mode = "n";
+			key = "<wl>";
+			action = "<C-w>h";
+		}
 
 		# Buffer switching.
 		{
@@ -65,7 +87,7 @@
 		}
 		{
 			mode = "i";
-			key = "jk";
+			key = "jj";
 			action = "<Esc>";
 		}
 		{
