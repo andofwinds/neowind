@@ -1,49 +1,27 @@
 { ... }:
 {
   keymaps = [
-		# Disable arrows
+		# Remap arrows to window switching.
     {
       mode = "n";
       key = "<left>";
-      action = "";
+      action = "<C-w>h";
     }
     {
       mode = "n";
       key = "<right>";
-      action = "";
+      action = "<C-w>l";
     }
     {
       mode = "n";
       key = "<up>";
-      action = "";
+      action = "<C-w>k";
     }
     {
       mode = "n";
       key = "<down>";
-      action = "";
+      action = "<C-w>j";
     }
-
-		# Window switching.
-		{
-			mode = "n";
-			key = "<H>";
-			action = "<C-w>h";
-		}
-		{
-			mode = "n";
-			key = "<J>";
-			action = "<C-w>h";
-		}
-		{
-			mode = "n";
-			key = "<K>";
-			action = "<C-w>h";
-		}
-		{
-			mode = "n";
-			key = "<L>";
-			action = "<C-w>h";
-		}
 
 		# Buffer switching.
 		{
@@ -92,8 +70,8 @@
 		}
 		{
 			mode = "n";
-			key = "+";
-			action = "<CMD>:new<CR>";
+			key = ";";
+			action = ":";
 		}
   ];
 }
