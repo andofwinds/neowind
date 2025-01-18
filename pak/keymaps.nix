@@ -1,7 +1,30 @@
 { ... }:
 {
   keymaps = [
-		# Remap arrows to window switching.
+		# Lspsaga.
+		{
+			mode = "n";
+			key = "t";
+			action = "<CMD>:Lspsaga code_action<CR>";
+		}
+		{
+			mode = "n";
+			key = "f";
+			action = "<CMD>:Lspsaga peek_defenision<CR>";
+		}
+		{
+			mode = "n";
+			key = "r";
+			action = "<CMD>:Lspsaga rename<CR>";
+		}
+		{
+			mode = "n";
+			key = "'";
+			action = "<CMD>:Lspsaga outline<CR>";
+		}
+
+
+		# Window switching
     {
       mode = "n";
       key = "<left>";

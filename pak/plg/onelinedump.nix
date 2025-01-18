@@ -7,5 +7,15 @@
     toggleterm.enable = true;
     lualine.enable = true;
 		markdown-preview.enable = true;
+		lspsaga = {
+			enable = true;
+
+			codeAction.onlyInCursor = false;
+			outline.layout = "float";
+		};
+		auto-session.enable = true;
+		auto-save = {
+			enable = true;
+		};
   };
 }

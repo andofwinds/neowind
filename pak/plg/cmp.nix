@@ -15,15 +15,14 @@
       	sources = [
           { name = "luasnip";  }
 	  			{ name = "nvim_lsp"; }
-					{ name = "buffer";   }
         ];
 
 				mapping = {
-        	"<Tab>"   = "cmp.mapping.select_next_item()";
-	  			"<S-Tab>" = "cmp.mapping.select_prev_item()";
+        	"<down>"   = "cmp.mapping.select_next_item()";
+	  			"<up>" = "cmp.mapping.select_prev_item()";
 	  			"<CR>" = "cmp.mapping.confirm { select = true }";
-	  			"<C-[>"   = "cmp.mapping.scroll_docs(2)";
-	  			"<C-]>"   = "cmp.mapping.scroll_docs(-2)";
+	  			"<right>"   = "cmp.mapping.scroll_docs(2)";
+	  			"<left>"   = "cmp.mapping.scroll_docs(-2)";
 				};
 
 				formatting = {

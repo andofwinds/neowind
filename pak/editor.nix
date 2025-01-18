@@ -1,16 +1,16 @@
 { ... }:
 {
   opts = {
-    number = true;
-    undofile = true;
-    mouse = "";
-    ignorecase = true;
-    scrolloff = 3;
-    showmode = false;
-    tabstop = 2;
-    shiftwidth = 2;
-		cursorline = true;
-		relativenumber = true;
+    mouse 					= ""; 		# Hardcore
+    scrolloff 			= 3;
+    tabstop 				= 4;
+    shiftwidth 			= 4;
+    number 					= true;
+    undofile 				= true;
+    ignorecase 			= true;
+		cursorline 			= true;
+		relativenumber 	= true;
+    showmode 				= false;
   };
 
 	extraConfigLua = ''
