@@ -7,7 +7,6 @@
     ./plg/cmp.nix
     ./plg/alpha.nix
     ./plg/bufferline.nix
-	./plg/packer.nix
 
     ./colorscheme.nix
     ./editor.nix
