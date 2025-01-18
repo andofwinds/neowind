@@ -1,16 +1,17 @@
 { ... }:
 {
   opts = {
-    mouse 					= ""; 		# Hardcore
+    mouse				= ""; 		# Hardcore
     scrolloff 			= 3;
-    tabstop 				= 4;
+    tabstop				= 4;
     shiftwidth 			= 4;
-    number 					= true;
-    undofile 				= true;
+    number 				= true;
+    undofile 			= true;
     ignorecase 			= true;
-		cursorline 			= true;
-		relativenumber 	= true;
-    showmode 				= false;
+	cursorline	 		= true;
+	relativenumber	 	= true;
+    showmode 			= false;
+	signcolumn 			= "yes:1";
   };
 
 	extraConfigLua = ''

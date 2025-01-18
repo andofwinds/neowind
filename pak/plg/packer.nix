@@ -1,0 +1,6 @@
+{ ... }:
+{
+	plugins.packer = {
+		enable = true;
+	};
+}
