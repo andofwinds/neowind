@@ -10,7 +10,8 @@
 	base08 = "#DAB4C8";	# Reserved symbols, variables.
 	base09 = "#608FD9";	# Numbers, Enum variants.
 	base0A = "#9C8AB4";
-	base0B = "#9DBAD7"; # INSERT Mode, Include's file name, Caret position.
+#	base0B = "#9DBAD7";
+	base0B = "#9C8AB4"; # INSERT Mode, Include's file name, Strings, Caret position.
 	base0C = "#A1B9DD";	#
 	base0D = "#7283B0";	# NORMAL Mode, Line, Function name.
 	base0E = "#9C8AB4"; # Reserved symbols, types.
